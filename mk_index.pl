@@ -9,34 +9,43 @@ use utf8;
 
 use Path::Tiny;
 
-my @projects;
+my (@projects) = grep { defined and $_ !~ /\A\s*\z/ } split /\n/m, <<'EOF';
 
-push @projects, 'Dist-Zilla-Role-Bootstrap';
-push @projects, 'Dist-Zilla-PluginBundle-Author-KENTNL';
-push @projects, 'Dist-Zilla-Plugin-Bootstrap-lib';
-push @projects, 'Path-ScanINC';
-push @projects, 'Test-CPAN-Changes-ReallyStrict';
+Dist-Zilla-Plugin-Bootstrap-lib
+Dist-Zilla-Plugin-Prereqs-Recommend-MatchInstalled
+Dist-Zilla-PluginBundle-Author-KENTNL
+Dist-Zilla-Role-Bootstrap
+Path-ScanINC
+Test-CPAN-Changes-ReallyStrict
 
-path('./index.html')->spew_raw(mk_page(@projects));
+EOF
+
+path('./index.html')->spew_raw( mk_page(@projects) );
 
 sub mk_coveralls_img {
   my ( $id, $branch ) = @_;
   return <<"EOF";
-<a href='https://coveralls.io/r/kentnl/$id?branch=$branch'><img src='https://coveralls.io/repos/kentnl/$id/badge.png?branch=$branch' alt='Coverage Status' /></a>
+<a href='https://coveralls.io/r/kentnl/$id?branch=$branch'>
+ <img src='https://coveralls.io/repos/kentnl/$id/badge.png?branch=$branch' alt='Coverage Status' />
+</a>
 EOF
 }
 
 sub mk_travis_img {
   my ( $id, $branch ) = @_;
   return <<"EOF";
-<a href="https://travis-ci.org/kentnl/$id"><img src="https://travis-ci.org/kentnl/$id.svg?branch=$branch"></a>
+<a href="https://travis-ci.org/kentnl/$id">
+ <img src="https://travis-ci.org/kentnl/$id.svg?branch=$branch" alt='Travis Status' />
+</a>
 EOF
 }
 
 sub mk_github_img {
   my ( $id, $branch ) = @_;
   return <<"EOF";
-<a href="https://github.com/kentnl/$id/tree/$branch"><img src="https://travis-ci.org/images/icons/github.svg" style="height: 16px; width: 16px;"></a>
+<a href="https://github.com/kentnl/$id/tree/$branch">
+ <img src="https://travis-ci.org/images/icons/github.svg" style="height: 16px; width: 16px;" alt='Gihub link'>
+</a>
 EOF
 }
 
@@ -49,9 +58,9 @@ sub mk_dl {
   my @lines;
   for my $node ( @{$hash} ) {
     my ( $title, $value ) = @{$node};
-    push @lines, '<dt>' . $title . '</dt><dd>' . $value . '</dd>';
+    push @lines, '<dt>' . $title . '</dt>' . qq[\n] . '<dd>' . $value . '</dd>' . qq[\n];
   }
-  return '<dl' . $infix . '>' . ( join q[], @lines ) . '</dl>';
+  return '<dl' . $infix . '>' . qq[\n]. ( join qq[\n], @lines ) . qq[\n] . '</dl>';
 }
 
 sub mk_coveralls {
@@ -73,6 +82,7 @@ sub mk_travis {
 
   return mk_dl( \@nodes, 'class="travis items"', );
 }
+
 sub mk_github {
   my ($id) = @_;
   my @nodes;
@@ -82,11 +92,12 @@ sub mk_github {
 
   return mk_dl( \@nodes, 'class="travis items"', );
 }
+
 sub mk_item {
   my ($id) = @_;
 
   my @nodes;
-  push @nodes, [ 'Github'  => mk_github($id) ];
+  push @nodes, [ 'Github'    => mk_github($id) ];
   push @nodes, [ 'Travis'    => mk_travis($id) ];
   push @nodes, [ 'Coveralls' => mk_coveralls($id) ];
 
@@ -99,9 +110,9 @@ sub mk_list {
   my ($list) = @_;
   my @lines;
   for my $item ( @{$list} ) {
-    push @lines, '<li>' . $item . '</li>';
+    push @lines, '<li>' . qq[\n] . $item . qq[\n]. '</li>' . qq[\n];
   }
-  return '<ul>' . ( join q[], @lines ) . '</ul>';
+  return '<ul>' . qq[\n] . ( join q[], @lines ). qq[\n] . '</ul>' . qq[\n];
 }
 
 sub mk_page {
