@@ -12,6 +12,7 @@ use Path::Tiny;
 my (@projects) = grep { defined and $_ !~ /\A\s*\z/ } split /\n/m, <<'EOF';
 
 Dist-Zilla-Plugin-Bootstrap-lib
+Dist-Zilla-Plugin-Git-NextRelease
 Dist-Zilla-Plugin-Prereqs-Recommend-MatchInstalled
 Dist-Zilla-PluginBundle-Author-KENTNL
 Dist-Zilla-Role-Bootstrap
