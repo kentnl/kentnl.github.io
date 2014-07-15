@@ -30,6 +30,13 @@ sub mk_travis_img {
 EOF
 }
 
+sub mk_github_img {
+  my ( $id, $branch ) = @_;
+  return <<"EOF";
+<a href="https://github.com/kentnl/$id/tree/$branch"><img src="https://travis-ci.org/images/icons/github.svg" style="height: 16px; width: 16px;"></a>
+EOF
+}
+
 sub mk_dl {
   my ( $hash, $infix ) = @_;
   $infix ||= '';
@@ -63,11 +70,20 @@ sub mk_travis {
 
   return mk_dl( \@nodes, 'class="travis items"', );
 }
+sub mk_github {
+  my ($id) = @_;
+  my @nodes;
+  push @nodes, [ 'master'       => mk_github_img( $id, 'master' ) ];
+  push @nodes, [ 'build/master' => mk_github_img( $id, 'build/master' ) ];
+  push @nodes, [ 'releases'     => mk_github_img( $id, 'releases' ) ];
 
+  return mk_dl( \@nodes, 'class="travis items"', );
+}
 sub mk_item {
   my ($id) = @_;
 
   my @nodes;
+  push @nodes, [ 'Github'  => mk_github($id) ];
   push @nodes, [ 'Travis'    => mk_travis($id) ];
   push @nodes, [ 'Coveralls' => mk_coveralls($id) ];
 
