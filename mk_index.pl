@@ -13,6 +13,8 @@ my @projects;
 
 push @projects, 'Dist-Zilla-Role-Bootstrap';
 push @projects, 'Dist-Zilla-PluginBundle-Author-KENTNL';
+push @projects, 'Dist-Zilla-Plugin-Bootstrap-lib';
+push @projects, 'Path-ScanINC';
 
 path('./index.html')->spew_raw(mk_page(@projects));
 
