@@ -16,6 +16,7 @@ Dist-Zilla-Plugin-Bootstrap-lib
 Dist-Zilla-Plugin-Git-NextRelease
 Dist-Zilla-Plugin-Prereqs-Recommend-MatchInstalled
 Dist-Zilla-PluginBundle-Author-KENTNL
+Dist-Zilla-Util-EmulatePhase
 Dist-Zilla-Role-Bootstrap
 Path-ScanINC
 Test-CPAN-Changes-ReallyStrict
