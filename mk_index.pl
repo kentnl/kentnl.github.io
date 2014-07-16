@@ -46,8 +46,22 @@ sub mk_github_img {
   my ( $id, $branch ) = @_;
   return <<"EOF";
 <a href="https://github.com/kentnl/$id/tree/$branch">
- <img src="https://travis-ci.org/images/icons/github.svg" style="height: 16px; width: 16px;" alt='Gihub link'>
+ <img src="https://travis-ci.org/images/icons/github.svg" style="height: 16px; width: 16px;" alt='Github link'>
 </a>
+EOF
+}
+
+sub mk_metacpan_img {
+  my ( $id ) = @_;
+  return <<"EOF";
+<a href="https://metacpan.org/release/$id"><img src="https://metacpan.org/static/icons/apple-touch-icon.png" style="height: 12px; width: 12px;" alt='Metacpan Link'></a>
+EOF
+}
+
+sub mk_sco_img {
+  my ( $id ) = @_;
+  return <<"EOF";
+<a href="http://search.cpan.org/dist/$id/"><img src="http://st.pimg.net/tucs/img/cpan_banner.png" style="height: 12px; width: 41px;" alt="Search.CPAN.org link"></a>
 EOF
 }
 
@@ -105,7 +119,7 @@ sub mk_item {
 
   my $entry = mk_dl( \@nodes, 'class="results"' );
 
-  return mk_dl( [ [ $id => $entry ] ], 'class="item"' );
+  return mk_dl( [ [ "$id " . mk_metacpan_img($id) . mk_sco_img($id)  => $entry ] ], 'class="item"' );
 }
 
 sub mk_list {
