@@ -18,6 +18,7 @@ Dist-Zilla-Plugin-Prereqs-Recommend-MatchInstalled
 Dist-Zilla-PluginBundle-Author-KENTNL
 Dist-Zilla-Util-EmulatePhase
 Dist-Zilla-Role-Bootstrap
+HTTP-Tiny-Mech
 Path-ScanINC
 Test-CPAN-Changes-ReallyStrict
 
