@@ -15,6 +15,7 @@ CPAN-Changes-Group-Dependencies-Stats
 Dist-Zilla-Plugin-Bootstrap-lib
 Dist-Zilla-Plugin-Git-NextRelease
 Dist-Zilla-Plugin-Prereqs-Recommend-MatchInstalled
+Dist-Zilla-Plugin-Test-Compile-PerFile
 Dist-Zilla-PluginBundle-Author-KENTNL
 Dist-Zilla-Util-EmulatePhase
 Dist-Zilla-Role-Bootstrap
