@@ -9,25 +9,7 @@ use utf8;
 
 use Path::Tiny;
 
-my (@projects) = grep { defined and $_ !~ /\A\s*\z/ } split /\n/m, <<'EOF';
-
-CPAN-Changes-Group-Dependencies-Stats
-Dist-Zilla-Plugin-Bootstrap-lib
-Dist-Zilla-Plugin-Git-NextRelease
-Dist-Zilla-Plugin-Prereqs-Recommend-MatchInstalled
-Dist-Zilla-Plugin-Prereqs-MatchInstalled
-Dist-Zilla-Plugin-Test-Compile-PerFile
-Dist-Zilla-PluginBundle-Author-KENTNL
-Dist-Zilla-Util-EmulatePhase
-Dist-Zilla-Util-RoleDB
-Dist-Zilla-Role-Bootstrap
-HTTP-Tiny-Mech
-Path-ScanINC
-MooseX-Has-Sugar
-Test-CPAN-Changes-ReallyStrict
-Test-File-ShareDir
-
-EOF
+my (@projects) = grep { defined and $_ !~ /\A\s*\z/ } path('./migrated.txt')->lines_raw({ chomp => 1 });
 
 path('./index.html')->spew_raw( mk_page(@projects) );
 
