@@ -1,2 +1,3 @@
 Dist-Zilla-Plugin-Prereqs-MatchInstalled
 Test-File-ShareDir
+Dist-Zilla-Util-RoleDB

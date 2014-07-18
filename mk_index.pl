@@ -23,6 +23,7 @@ Dist-Zilla-Util-RoleDB
 Dist-Zilla-Role-Bootstrap
 HTTP-Tiny-Mech
 Path-ScanINC
+MooseX-Has-Sugar
 Test-CPAN-Changes-ReallyStrict
 Test-File-ShareDir
 
