@@ -19,6 +19,7 @@ Dist-Zilla-Plugin-Prereqs-MatchInstalled
 Dist-Zilla-Plugin-Test-Compile-PerFile
 Dist-Zilla-PluginBundle-Author-KENTNL
 Dist-Zilla-Util-EmulatePhase
+Dist-Zilla-Util-RoleDB
 Dist-Zilla-Role-Bootstrap
 HTTP-Tiny-Mech
 Path-ScanINC
