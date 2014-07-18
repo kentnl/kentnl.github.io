@@ -23,6 +23,7 @@ Dist-Zilla-Role-Bootstrap
 HTTP-Tiny-Mech
 Path-ScanINC
 Test-CPAN-Changes-ReallyStrict
+Test-File-ShareDir
 
 EOF
 
