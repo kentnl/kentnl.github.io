@@ -14,3 +14,4 @@ Path-ScanINC
 MooseX-Has-Sugar
 Test-CPAN-Changes-ReallyStrict
 Test-File-ShareDir
+Dist-Zilla-Plugin-RewriteVersion-Sanitized
