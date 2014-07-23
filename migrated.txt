@@ -8,6 +8,7 @@ Dist-Zilla-Plugin-RewriteVersion-Sanitized
 Dist-Zilla-Plugin-Test-Compile-PerFile
 Dist-Zilla-PluginBundle-Author-KENTNL
 Dist-Zilla-Role-Bootstrap
+Dist-Zilla-Util-CurrentCmd
 Dist-Zilla-Util-EmulatePhase
 Dist-Zilla-Util-RoleDB
 HTTP-Tiny-Mech
