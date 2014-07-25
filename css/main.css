@@ -1,0 +1,36 @@
+dl.results {
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+dl.results > dt {
+  height: 24px;
+  width: 10%;
+}
+dl.results > dd {
+  margin: auto;
+  width: 85%;
+}
+
+.items dt {
+  display: inline-block;
+  height: 20px;
+  margin: 0;
+  padding: 0 5px;
+  text-align: right;
+  width: 80px;
+}
+.items dd a {
+  display: inline-block;
+  height: 20px;
+}
+.items dd {
+  -moz-margin-start: 0;
+  display: inline-block;
+  height: 20px;
+  margin: 0;
+  padding: 0 5px;
+  width: 120px;
+}

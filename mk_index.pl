@@ -122,49 +122,9 @@ sub mk_list {
 
 sub mk_page {
   my (@projects) = @_;
-  my $list        = mk_list( [ map { mk_item($_) } sort @projects ] );
-  my $title       = '<title>KENTNL Project Statuses</title>';
-  my $style_sheet = <<'EOF';
-
-dl.results {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  justify-content: center;
-}
-
-dl.results > dt {
-  width: 10%;
-  height: 24px;
-}
-dl.results > dd {
-  width: 85%;
-  margin: auto;
-}
-
-.items dt {
-  padding: 0 5px;
-  display: inline-block;
-  width: 80px;
-  height: 20px;
-  margin: 0;
-  text-align: right;
-}
-.items dd a {
-  height: 20px;
-  display: inline-block;
-}
-.items dd {
-  display: inline-block;
-  padding: 0 5px;
-  margin: 0;
-  height: 20px;
-  width: 120px;
-  -moz-margin-start: 0;
-}
-
-EOF
-  my $style  = '<style>' . $style_sheet . '</style>';
+  my $list   = mk_list( [ map { mk_item($_) } sort @projects ] );
+  my $title  = '<title>KENTNL Project Statuses</title>';
+  my $style  = '<link rel="stylesheet" href="css/main.css" />';
   my $header = '<head>' . $title . $style . '</head>';
   my $html   = '<html>' . $header . '<body>' . $list . '</body></html>';
   return $html;
