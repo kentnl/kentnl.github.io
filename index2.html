@@ -1,17 +1,75 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" ng-app="KNL">
   <head>
+    <meta charset="UTF-8">
     <title>KENTNL Project Statuses</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.17/angular.min.js"></script>
-    <script src="js/module/KNL.js" ></script>
+    <script src="js/module/KNL.js"></script>
     <script src="js/module/KNL/controller/Distribution.js"></script>
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-  <div ng-controller="Distribution">
-    <div ng-repeat="item in distributions">
-      <h1>{{item}}</h1>
-    </div>
-  </div>
+  <ul ng-controller="Distribution">
+    <li ng-repeat="item in distributions">
+      <dl class="item">
+        <dt>{{item}}
+          <a href="https://metacpan.org/release/{{item}}"><img src="https://metacpan.org/static/icons/apple-touch-icon.png" style="height: 12px; width: 12px;" alt='Metacpan Link'></a>
+          <a href="http://search.cpan.org/dist/{{item}}/"><img src="http://st.pimg.net/tucs/img/cpan_banner.png" style="height: 12px; width: 41px;" alt="Search.CPAN.org link"></a>
+        </dt>
+        <dd>
+          <dl class="results">
+            <dt>Github</dt>
+            <dd>
+              <dl class="github items">
+
+                <dt>master</dt>
+                <dd><a href="https://github.com/kentnl/{{item}}/tree/master"><img src="https://travis-ci.org/images/icons/github.svg" style="height: 16px; width: 16px;" alt='Github link'></a></dd>
+
+                <dt>build/master</dt>
+                <dd><a href="https://github.com/kentnl/{{item}}/tree/build/master"><img src="https://travis-ci.org/images/icons/github.svg" style="height: 16px; width: 16px;" alt='Github link'></a></dd>
+
+                <dt>releases</dt>
+                <dd><a href="https://github.com/kentnl/{{item}}/tree/releases"><img src="https://travis-ci.org/images/icons/github.svg" style="height: 16px; width: 16px;" alt='Github link'></a></dd>
+
+              </dl>
+            </dd>
+            <dt>Travis</dt>
+            <dd>
+              <dl class="travis items">
+                <dt>master</dt>
+                <dd><a href="https://travis-ci.org/kentnl/{{item}}"><img src="https://travis-ci.org/kentnl/{{item}}.svg?branch=master" alt='Travis Status' /></a></dd>
+
+                <dt>build/master</dt>
+                <dd><a href="https://travis-ci.org/kentnl/{{item}}"><img src="https://travis-ci.org/kentnl/{{item}}.svg?branch=build/master" alt='Travis Status' /></a></dd>
+
+
+                <dt>releases</dt>
+                <dd><a href="https://travis-ci.org/kentnl/{{item}}"><img src="https://travis-ci.org/kentnl/{{item}}.svg?branch=releases" alt='Travis Status' /></a></dd>
+
+
+              </dl>
+            </dd>
+            <dt>Coveralls</dt>
+            <dd>
+              <dl class="coveralls items">
+                <dt>master</dt>
+                <dd><a href='https://coveralls.io/r/kentnl/{{item}}?branch=master'><img src='https://coveralls.io/repos/kentnl/{{item}}/badge.png?branch=master' alt='Coverage Status' /></a>
+
+                <dt>build/master</dt>
+                <dd><a href='https://coveralls.io/r/kentnl/{{item}}?branch=build/master'><img src='https://coveralls.io/repos/kentnl/{{item}}/badge.png?branch=build/master' alt='Coverage Status' /></a>
+
+
+
+                <dt>releases</dt>
+                <dd><a href='https://coveralls.io/r/kentnl/{{item}}?branch=releases'><img src='https://coveralls.io/repos/kentnl/{{item}}/badge.png?branch=releases' alt='Coverage Status' /></a>
+
+
+              </dl>
+            </dd>
+          </dl>
+        </dd>
+      </dl>
+    </li>
+  </ul>
   </body>
 </html>
