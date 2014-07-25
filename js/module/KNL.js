@@ -1,1 +1,1 @@
-var KNL = angular.module('KNL', [ ]);
+angular.module('KNL', [ ]);
