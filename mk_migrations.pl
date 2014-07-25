@@ -31,7 +31,5 @@ for my $child ( $root->parent->children ) {
     warn $child->basename . ' is not migrated properly yet, git config is wrong';
   }
 }
-$root->child('migrated.txt')->spew_raw( join qq[\n], sort @out );
 $root->child('data/distributions.json')->spew_raw(JSON->new()->utf8->encode([ sort @out ]));
-do $root->child('mk_index.pl');
 
