@@ -9,14 +9,7 @@
     <script src="js/module/KNL/controller/Distribution.js"></script>
     <link rel="stylesheet" href="css/main.css" />
   </head>
-  <body>
-  <ul ng-controller="Distribution">
-    <li ng-repeat="item in distributions">
-      <dl class="item">
-        <dt>{{item}} <ng-include src="'partials/cpan_items.html'"></ng-include></dt>
-        <dd><ng-include src="'partials/items_details.html'"></ng-include></dd>
-      </dl>
-    </li>
-  </ul>
+  <a href="#/simple">[simple]</a> | <a href="#/detailed">[detailed]</a>
+  <ng-view></ng-view>
   </body>
 </html>
