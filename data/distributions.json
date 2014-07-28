@@ -13,6 +13,7 @@
    "Dist-Zilla-Plugin-Test-Compile-PerFile",
    "Dist-Zilla-PluginBundle-Author-KENTNL",
    "Dist-Zilla-Role-Bootstrap",
+   "Dist-Zilla-Role-Tempdir",
    "Dist-Zilla-Role-Version-Sanitize",
    "Dist-Zilla-Util-BundleInfo",
    "Dist-Zilla-Util-CurrentCmd",
