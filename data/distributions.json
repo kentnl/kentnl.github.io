@@ -6,6 +6,7 @@
    "Dist-Zilla-Plugin-MetaData-BuiltWith",
    "Dist-Zilla-Plugin-MetaProvides",
    "Dist-Zilla-Plugin-MetaProvides-Package",
+   "Dist-Zilla-Plugin-ModuleInstall",
    "Dist-Zilla-Plugin-Prereqs-MatchInstalled",
    "Dist-Zilla-Plugin-Prereqs-Recommend-MatchInstalled",
    "Dist-Zilla-Plugin-RewriteVersion-Sanitized",
