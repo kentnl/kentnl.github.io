@@ -4,6 +4,9 @@ function($scope,   $http,  $routeParams,  $interval,  $log,  $rootScope) {
 
       $scope.updater = function() {
         $http.get('https://api.github.com/orgs/kentnl/repos', {cache: true}).success(function(data){
+          data.sort(function(a,b) {
+            a['pushed_at'].localeCompare(b['pushed_at']);
+          });
           $scope.distributions = data.map(function(item){
             return item['name'];
           });
