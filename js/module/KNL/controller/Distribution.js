@@ -13,8 +13,12 @@ function($scope,   $http,  $routeParams,  $interval,  $log,  $rootScope) {
       if ( $rootScope['updater_interval'] ) {
         $interval.cancel( $rootScope.updater_interval );
       }
+      if ( $routeParams['item'] ) {
+        $scope.item = $routeParams.item
+      }
+
       if ( !$routeParams['item'] ) {
         $rootScope['updater_interval'] = $interval( $scope.updater, 60000 );
+        $scope.updater();
       }
-      $scope.updater();
 }]);
