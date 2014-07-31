@@ -3,11 +3,10 @@ angular.module('KNL').controller('Distribution',
 function($scope,   $http,  $routeParams,  $interval,  $log,  $rootScope) {
 
       $scope.updater = function() {
-        $http.get('data/distributions.json').success(function(data){
-          $scope.distributions = data;
-          if ( $routeParams['item'] ) {
-            $scope.item = $routeParams.item
-          }
+        $http.get('https://api.github.com/orgs/kentnl/repos', {cache: true}).success(function(data){
+          $scope.distributions = data.map(function(item){
+            return item['name'];
+          });
         });
       };
 
