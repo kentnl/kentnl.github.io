@@ -1,4 +1,5 @@
 [
+   "CPAN-Changes-Dependencies-Details",
    "CPAN-Changes-Group-Dependencies-Details",
    "CPAN-Changes-Group-Dependencies-Stats",
    "Dist-Zilla-App-Command-dumpwith",
