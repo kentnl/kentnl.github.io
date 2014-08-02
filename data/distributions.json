@@ -4,6 +4,7 @@
    "CPAN-Changes-Group-Dependencies-Stats",
    "Dist-Zilla-App-Command-dumpwith",
    "Dist-Zilla-App-Command-lsplugins",
+   "Dist-Zilla-Plugin-Author-KENTNL-Prereqs-Latest-Selective",
    "Dist-Zilla-Plugin-AutoVersion-Relative",
    "Dist-Zilla-Plugin-Bootstrap-lib",
    "Dist-Zilla-Plugin-Git-NextRelease",
