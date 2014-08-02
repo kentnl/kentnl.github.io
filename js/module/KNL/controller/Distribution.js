@@ -24,7 +24,7 @@ function($scope,   $http,  $routeParams,  $interval,  $log,  $rootScope) {
       // This is the function that fetches JSON data, processes it
       // and injects it into the page.
       $scope.updater = function() {
-        $http.get( providers[provider].source, {cache: true}).success(function(data){
+        $http.get( providers[provider].source ).success(function(data){
           data.sort( providers[provider].sorter );
           $scope.distributions = data.map( providers[provider].mapper);
         });
