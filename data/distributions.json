@@ -6,6 +6,8 @@
    "Dist-Zilla-App-Command-lsplugins",
    "Dist-Zilla-Plugin-Author-KENTNL-Prereqs-Latest-Selective",
    "Dist-Zilla-Plugin-AutoVersion-Relative",
+   "Dist-Zilla-Plugin-Bootstrap-ShareDir-Dist",
+   "Dist-Zilla-Plugin-Bootstrap-ShareDir-Module",
    "Dist-Zilla-Plugin-Bootstrap-lib",
    "Dist-Zilla-Plugin-Git-NextRelease",
    "Dist-Zilla-Plugin-MetaData-BuiltWith",
