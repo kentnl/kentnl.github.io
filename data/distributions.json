@@ -10,6 +10,7 @@
    "Dist-Zilla-Plugin-Bootstrap-ShareDir-Module",
    "Dist-Zilla-Plugin-Bootstrap-lib",
    "Dist-Zilla-Plugin-Git-NextRelease",
+   "Dist-Zilla-Plugin-INI-Baked",
    "Dist-Zilla-Plugin-MetaData-BuiltWith",
    "Dist-Zilla-Plugin-MetaProvides",
    "Dist-Zilla-Plugin-MetaProvides-FromFile",
