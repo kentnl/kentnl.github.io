@@ -37,6 +37,7 @@
    "MooX-Lsub",
    "MooseX-Has-Sugar",
    "Path-ScanINC",
+   "Regexp-Grammars-Common-String",
    "Test-CPAN-Changes-ReallyStrict",
    "Test-File-ShareDir"
 ]
