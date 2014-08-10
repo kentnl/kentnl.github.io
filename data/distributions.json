@@ -34,6 +34,7 @@
    "Dist-Zilla-Util-ExpandINI",
    "Dist-Zilla-Util-RoleDB",
    "Dist-Zilla-Util-Test-KENTNL",
+   "Gentoo-MetaEbuild-Spec-Base",
    "Git-PurePerl-Walker",
    "HTTP-Tiny-Mech",
    "MooX-Lsub",
