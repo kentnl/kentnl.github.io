@@ -1,5 +1,6 @@
 [
    "Acme-Time-Constant",
+   "App-cpanoutdated-fresh",
    "CPAN-Changes-Dependencies-Details",
    "CPAN-Changes-Group-Dependencies-Details",
    "CPAN-Changes-Group-Dependencies-Stats",
