@@ -37,6 +37,7 @@
    "Gentoo-MetaEbuild-Spec-Base",
    "Git-PurePerl-Walker",
    "HTTP-Tiny-Mech",
+   "Minecraft-SectionFilter",
    "MooX-Lsub",
    "MooseX-Has-Sugar",
    "Path-ScanINC",
