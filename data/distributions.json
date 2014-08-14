@@ -22,6 +22,7 @@
    "Dist-Zilla-Plugin-ModuleInstall",
    "Dist-Zilla-Plugin-Prereqs-MatchInstalled",
    "Dist-Zilla-Plugin-Prereqs-Recommend-MatchInstalled",
+   "Dist-Zilla-Plugin-Prereqs-Soften",
    "Dist-Zilla-Plugin-RewriteVersion-Sanitized",
    "Dist-Zilla-Plugin-Test-Compile-PerFile",
    "Dist-Zilla-PluginBundle-Author-KENTNL",
