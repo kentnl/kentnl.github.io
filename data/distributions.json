@@ -35,6 +35,7 @@
    "Dist-Zilla-Util-ExpandINI",
    "Dist-Zilla-Util-RoleDB",
    "Dist-Zilla-Util-Test-KENTNL",
+   "File-Tempdir-ForPackage",
    "Gentoo-MetaEbuild-Spec-Base",
    "Git-PurePerl-Walker",
    "HTTP-Tiny-Mech",
