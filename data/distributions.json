@@ -26,6 +26,7 @@
    "Dist-Zilla-Plugin-MetaProvides-Package",
    "Dist-Zilla-Plugin-ModuleInstall",
    "Dist-Zilla-Plugin-Prereqs-MatchInstalled",
+   "Dist-Zilla-Plugin-Prereqs-Plugins",
    "Dist-Zilla-Plugin-Prereqs-Recommend-MatchInstalled",
    "Dist-Zilla-Plugin-Prereqs-Soften",
    "Dist-Zilla-Plugin-RewriteVersion-Sanitized",
