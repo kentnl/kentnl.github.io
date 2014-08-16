@@ -13,6 +13,7 @@
    "Dist-Zilla-App-Command-dumpwith",
    "Dist-Zilla-App-Command-lsplugins",
    "Dist-Zilla-Plugin-Author-KENTNL-Prereqs-Latest-Selective",
+   "Dist-Zilla-Plugin-Author-KENTNL-RecommendFixes",
    "Dist-Zilla-Plugin-AutoVersion-Relative",
    "Dist-Zilla-Plugin-Bootstrap-ShareDir-Dist",
    "Dist-Zilla-Plugin-Bootstrap-ShareDir-Module",
