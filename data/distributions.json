@@ -45,6 +45,7 @@
    "Minecraft-SectionFilter",
    "MooX-Lsub",
    "MooseX-Has-Sugar",
+   "Path-FindDev",
    "Path-ScanINC",
    "Regexp-Grammars-Common-String",
    "Test-CPAN-Changes-ReallyStrict",
