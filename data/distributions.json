@@ -28,6 +28,7 @@
    "Dist-Zilla-PluginBundle-Author-KENTNL",
    "Dist-Zilla-PluginBundle-Author-KENTNL-Lite",
    "Dist-Zilla-Role-Bootstrap",
+   "Dist-Zilla-Role-BundleDeps",
    "Dist-Zilla-Role-Tempdir",
    "Dist-Zilla-Role-Version-Sanitize",
    "Dist-Zilla-Util-BundleInfo",

@@ -17,6 +17,7 @@ my @out;
 
 for my $child ( $root->parent->children ) {
   next if $child eq $root;
+  next unless -d $child;
   push @out, $child->basename;
   my $git = $child->child('.git');
   if ( not -d $git ) {
