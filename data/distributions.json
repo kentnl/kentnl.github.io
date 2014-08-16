@@ -46,6 +46,7 @@
    "MooX-Lsub",
    "MooseX-Has-Sugar",
    "Path-FindDev",
+   "Path-IsDev",
    "Path-ScanINC",
    "Regexp-Grammars-Common-String",
    "Test-CPAN-Changes-ReallyStrict",
