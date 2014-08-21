@@ -58,6 +58,7 @@
    "Path-FindDev",
    "Path-IsDev",
    "Path-ScanINC",
+   "Pod-Weaver-PluginBundle-Author-KENTNL",
    "Regexp-Grammars-Common-String",
    "Test-CPAN-Changes-ReallyStrict",
    "Test-File-ShareDir"
