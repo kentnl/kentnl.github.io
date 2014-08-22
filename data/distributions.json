@@ -41,6 +41,7 @@
    "Dist-Zilla-Role-Tempdir",
    "Dist-Zilla-Role-Version-Sanitize",
    "Dist-Zilla-Util-BundleInfo",
+   "Dist-Zilla-Util-ConfigDumper",
    "Dist-Zilla-Util-CurrentCmd",
    "Dist-Zilla-Util-EmulatePhase",
    "Dist-Zilla-Util-ExpandINI",
