@@ -34,3 +34,13 @@ dl.results > dd {
   padding: 0 5px;
   width: 120px;
 }
+
+li.simplerow a.coverallsbutton  {
+  width: 112px;
+  display: inline-block;
+  text-align: left;
+}
+li.simplerow a.travisbutton {
+  width: 91px;
+  display: inline-block;
+}
