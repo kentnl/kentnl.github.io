@@ -35,6 +35,7 @@
    "Dist-Zilla-Plugin-RewriteVersion-Sanitized",
    "Dist-Zilla-Plugin-Test-Compile-PerFile",
    "Dist-Zilla-Plugin-if",
+   "Dist-Zilla-Plugin-if-ENV",
    "Dist-Zilla-PluginBundle-Author-KENTNL",
    "Dist-Zilla-PluginBundle-Author-KENTNL-Lite",
    "Dist-Zilla-Role-Bootstrap",
