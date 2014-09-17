@@ -1,6 +1,7 @@
 [
    "Acme-Time-Constant",
    "App-cpanoutdated-fresh",
+   "Benchmark-CSV",
    "CHI-Driver-LMDB",
    "CPAN-Changes-Dependencies-Details",
    "CPAN-Changes-Group-Dependencies-Details",
