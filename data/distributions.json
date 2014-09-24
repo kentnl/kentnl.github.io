@@ -61,6 +61,7 @@
    "Minecraft-SectionFilter",
    "MooX-Lsub",
    "MooX-NewDefaults",
+   "MooseX-AttributeIndexes",
    "MooseX-Has-Sugar",
    "Path-FindDev",
    "Path-IsDev",
