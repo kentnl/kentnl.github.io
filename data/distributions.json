@@ -61,6 +61,7 @@
    "Gentoo-PerlMod-Version",
    "Git-PurePerl-Walker",
    "HTTP-Tiny-Mech",
+   "IPC-Run-Fused",
    "Minecraft-SectionFilter",
    "MooX-Lsub",
    "MooX-NewDefaults",
