@@ -59,6 +59,7 @@
    "File-ShareDir-ProjectDistDir",
    "File-Tempdir-ForPackage",
    "Gentoo-MetaEbuild-Spec-Base",
+   "Gentoo-Overlay-Group",
    "Gentoo-PerlMod-Version",
    "Git-PurePerl-Walker",
    "HTTP-Tiny-Mech",
