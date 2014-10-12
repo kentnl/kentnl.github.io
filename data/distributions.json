@@ -15,6 +15,7 @@
    "DBIx-Class-InflateColumn-Serializer-JSYNC",
    "Data-Handle",
    "Dist-Zilla-App-Command-bakeini",
+   "Dist-Zilla-App-Command-critic",
    "Dist-Zilla-App-Command-dumpphases",
    "Dist-Zilla-App-Command-dumpwith",
    "Dist-Zilla-App-Command-lsplugins",
