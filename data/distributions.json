@@ -1,5 +1,6 @@
 [
    "Acme-Time-Constant",
+   "App-colourhexdump",
    "App-cpanoutdated-fresh",
    "Benchmark-CSV",
    "CHI-Driver-LMDB",
