@@ -32,6 +32,7 @@
    "Dist-Zilla-Plugin-INI-Baked",
    "Dist-Zilla-Plugin-MetaData-BuiltWith",
    "Dist-Zilla-Plugin-MetaProvides",
+   "Dist-Zilla-Plugin-MetaProvides-Class",
    "Dist-Zilla-Plugin-MetaProvides-FromFile",
    "Dist-Zilla-Plugin-MetaProvides-Package",
    "Dist-Zilla-Plugin-ModuleInstall",
