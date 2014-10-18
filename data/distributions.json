@@ -14,6 +14,7 @@
    "Comment-Spell",
    "Comment-Spell-Check",
    "DBIx-Class-InflateColumn-Serializer-JSYNC",
+   "DBIx-Class-InflateColumn-Serializer-Sereal",
    "Data-Handle",
    "Dist-Zilla-App-Command-bakeini",
    "Dist-Zilla-App-Command-critic",
