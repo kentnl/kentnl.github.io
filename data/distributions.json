@@ -64,6 +64,7 @@
    "Dist-Zilla-Util-Test-KENTNL",
    "File-ShareDir-ProjectDistDir",
    "File-Tempdir-ForPackage",
+   "Generic-Assertions",
    "Gentoo-MetaEbuild-Spec-Base",
    "Gentoo-Overlay",
    "Gentoo-Overlay-Group",
