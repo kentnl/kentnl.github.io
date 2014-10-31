@@ -69,6 +69,7 @@
    "Gentoo-Overlay",
    "Gentoo-Overlay-Group",
    "Gentoo-PerlMod-Version",
+   "Gentoo-Util-MetaCPAN",
    "Gentoo-Util-VirtualDepend",
    "Git-PurePerl-Walker",
    "HTTP-Tiny-Mech",
