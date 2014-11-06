@@ -3,6 +3,7 @@
    "App-colourhexdump",
    "App-cpanoutdated-fresh",
    "Benchmark-CSV",
+   "CHI-Config",
    "CHI-Driver-LMDB",
    "CPAN-Changes-Dependencies-Details",
    "CPAN-Changes-Group-Dependencies-Details",
