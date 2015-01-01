@@ -18,6 +18,7 @@
    "DBIx-Class-InflateColumn-Serializer-JSYNC",
    "DBIx-Class-InflateColumn-Serializer-Sereal",
    "Data-Handle",
+   "Devel-Cover-Report-Json_detailed",
    "Dist-Zilla-App-Command-bakeini",
    "Dist-Zilla-App-Command-critic",
    "Dist-Zilla-App-Command-dumpphases",
