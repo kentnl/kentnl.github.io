@@ -1,6 +1,7 @@
 [
    "Acme-CPANAuthors-MBTI",
    "Acme-Time-Constant",
+   "App-DH",
    "App-colourhexdump",
    "App-cpanoutdated-fresh",
    "Benchmark-CSV",
@@ -85,6 +86,7 @@
    "MooX-NewDefaults",
    "MooseX-AttributeIndexes",
    "MooseX-Has-Sugar",
+   "PPIx-DocumentName",
    "Path-FindDev",
    "Path-IsDev",
    "Path-ScanINC",
