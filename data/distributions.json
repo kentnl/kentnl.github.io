@@ -78,6 +78,7 @@
    "Dist-Zilla-Util-Git-Wrapper",
    "Dist-Zilla-Util-RoleDB",
    "Dist-Zilla-Util-Test-KENTNL",
+   "ELF-Extract-Sections",
    "File-ShareDir-ProjectDistDir",
    "File-Tempdir-ForPackage",
    "Generic-Assertions",
@@ -104,7 +105,9 @@
    "Pod-Eventual-Reconstruct",
    "Pod-Weaver-PluginBundle-Author-KENTNL",
    "Regexp-Grammars-Common-String",
+   "Search-GIN-Extract-AttributeIndexes",
    "String-Sections",
    "Test-CPAN-Changes-ReallyStrict",
+   "Test-Deep-Filter",
    "Test-File-ShareDir"
 ]
