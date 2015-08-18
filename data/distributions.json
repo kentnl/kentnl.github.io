@@ -106,6 +106,8 @@
    "Pod-Weaver-PluginBundle-Author-KENTNL",
    "Regexp-Grammars-Common-String",
    "Search-GIN-Extract-AttributeIndexes",
+   "Search-GIN-Extract-ClassMap",
+   "Set-Associate",
    "String-Sections",
    "Test-CPAN-Changes-ReallyStrict",
    "Test-Deep-Filter",
