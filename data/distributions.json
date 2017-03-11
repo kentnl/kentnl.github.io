@@ -106,6 +106,7 @@
    "IO-Async-XMLStream-SAXReader",
    "IPC-Run-Fused",
    "Log-Contextual-WarnLogger-Fancy",
+   "MetaPOD",
    "MetaPOD-Spec",
    "Minecraft-SectionFilter",
    "Module-Data",
